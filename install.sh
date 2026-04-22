@@ -150,8 +150,8 @@ if [ ! -f ".env.example" ]; then
 OPENAI_API_KEY=your_openai_api_key_here
 DATABASE_URL=postgresql://db_user:db_password@localhost:5432/hackgpt
 REDIS_URL=redis://localhost:6379/0
-SECRET_KEY=your_secret_key_here
-JWT_SECRET_KEY=your_jwt_secret_key_here
+SECRET_KEY=replace_with_a_long_random_secret
+JWT_SECRET_KEY=replace_with_a_long_random_jwt_secret
 SHODAN_API_KEY=your_shodan_api_key
 CENSYS_API_ID=your_censys_api_id
 CENSYS_API_SECRET=your_censys_api_secret

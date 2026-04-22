@@ -238,8 +238,8 @@ REDIS_URL=redis://localhost:6379/0
 OPENAI_API_KEY=your_openai_api_key
 
 # Security
-SECRET_KEY=your_secret_key
-JWT_SECRET_KEY=your_jwt_secret
+SECRET_KEY=replace_with_a_long_random_secret
+JWT_SECRET_KEY=replace_with_a_long_random_jwt_secret
 LDAP_SERVER=ldaps://your-ldap.com:636
 
 # Cloud Providers
